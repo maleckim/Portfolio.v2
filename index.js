@@ -1,11 +1,9 @@
-
 function homeScreen() {
-     
-        
-        $('.aboutPage').hide()
-        $('.contactPage').hide()
-        $('.projectsPage').hide()
-    
+
+    $('.aboutPage').hide()
+    $('.contactPage').hide()
+    $('.projectsPage').hide()
+
 }
 
 
