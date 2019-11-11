@@ -144,6 +144,29 @@ a {
 
 }
 
+.contactPage .otherCon i {
+    display: inline;
+    font-size: 30px;
+    padding-right: 40px;
+    color: #DEE4E7;
+
+}
+
+.otherCon {
+
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+
+
+
+a:link {
+    text-decoration: none;
+
+}
+
 .links {
     font-size: 25px;
     color: #DEE4E7;
@@ -168,6 +191,19 @@ a {
     width: 600px;
     border: #DEE4E7 solid 2px;
 }
+
+figcaption {
+    color: #DEE4E7;
+    font-size: 23px;
+    line-height: 45px;
+}
+
+.projectsPage a:link {
+    text-decoration: underline;
+    color: #DEE4E7;
+
+}
+
 
 
 
