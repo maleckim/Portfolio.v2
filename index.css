@@ -55,6 +55,13 @@ a {
     color: #37474F;
 }
 
+.en a:hover i {
+    display:none;   
+}
+
+.en a:hover b {
+    display: block;
+}
 
 
 
