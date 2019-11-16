@@ -17,7 +17,7 @@
             document.getElementsByTagName('head')[0].appendChild(css);
         })();
     </script>
-    <title>portfolio</title>
+    <title>Matthew Malecki | Fullstack Developer</title>
 </head>
 
 <body>
@@ -31,15 +31,6 @@
 
 
 
-        <div class="sidebar">
-            <a href="#" class='home'>HOME</a>
-            <a href="#" class='about'>ABOUT</a>
-            <a href="#" class='contact'>CONTACT</a>
-            <a href="#" class='projects'>PROJECTS</a>
-        </div>
-
-
-
 
 
         <section class='homePage'>
@@ -50,15 +41,14 @@
         </section>
 
 
-        <section class='aboutPage'>
+        <section class='aboutPage hidden'>
             <div class='mid'>
                 <h1>Who is this guy?</h1>
                 <p>My name is Matthew Malecki! I've been on a computer since I was 4 years old. I'm a logic driven
                     person with a decent creative side. I'm
                     knowledgeable in HTML, CSS, Javascript, Python, and C. I realized development was my passion
-                    when other people told me it was strange that I enjoyed sitting down for several hours and
-                    troubleshooting/problem solving.
-                    I love working with other like minded people because I dont let pride get in the way of creating
+                    when I found out that othres don't consider sitting down for several hours and troubleshooting/problem 
+                    solving. I love working with other like minded people because I dont let pride get in the way of creating
                     something great. This doesnt mean I'm a pushover,
                     but I am very open and receptive to criticism that betters my work.</p></br>
                 <p>Outside of coding, I love music and also like most people who spend the majority of their time on a
@@ -69,34 +59,29 @@
             </div>
         </section>
 
-        <section class='contactPage'>
-            <h2>Email me directly!</h2>
-
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                Name:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-                Comment:<br>
-                <input type="text" name="comment" size="50" style='padding-bottom:50px;'><br><br>
-                <input type="submit" value="Send" class='emailSub'>
-            </form>
-
-
+        <section class='contactPage hidden'>
+            <h1>Contact Page</h1>
             <div class='otherCon'>
                 <a target='_blank' href='https://github.com/maleckim/'><i class="fab fa-github"></i></a>
-                <a target='_blank' href=''><i class="fab fa-linkedin"></i><a>
+                <a target='_blank' href=''><i class="fab fa-linkedin"></i></a>
+                <a target='_blank' href='mailto:maleckimatthewm@gmail.com'><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                
             </div>
 
         </section>
 
-        <section class='projectsPage'>
-            <figure>
+        <section class='projectsPage hidden'>
+            <h1>Projects</h1>
+            <h3><a class = 'goBack hidden'><i class="fa fa-arrow-left" aria-hidden="true"></i></a></h3>
+            <ul class = 'projectList'>
+            <a class = 'quizzApp'><b>QuizzApp!</b></a>
+            </ul>
+            <figure class = "hidden">
                 <a href='https://maleckim.github.io/QuizzApp/' target='_blank'><img src='QuizzAppMain.PNG'></a>
                 <figcaption>QuizzApp!
                     <br>The quizzApp was the first project I had ever built from the ground up.
                     <br>It was built using HTML, CSS, and used Javascript to emulate data pulls.
-                    <br><a target='_blank' href='https://github.com/maleckim/QuizzApp.git'>github repo</a>
+                    <br><a target='_blank'class='projectLink' href='https://github.com/maleckim/QuizzApp.git'>github repo</a>
                 </figcaption>
             </figure>
         </section>

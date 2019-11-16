@@ -1,12 +1,3 @@
-function homeScreen() {
-
-    $('.aboutPage').hide()
-    $('.contactPage').hide()
-    $('.projectsPage').hide()
-
-}
-
-
 
 function navHandler() {
     $('.home').on('click', function (e) {
@@ -40,11 +31,25 @@ function navHandler() {
 
 }
 
+function projectNavigation(){
+    $('.projectList').on('click',function(e) {
+        $('.projectList').hide()
+        $('figure').show()
+        $('.goBack').show()
+    })
+    $('.goBack').on('click',function(e) {
+        $('.projectList').show()
+        $('figure').hide()
+        $('.goBack').hide()
+    })
+}    
+
+
 
 
 function render() {
-    $(homeScreen);
     $(navHandler);
+    $(projectNavigation);
 }
 
 $(render);
