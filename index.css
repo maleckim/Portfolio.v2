@@ -305,7 +305,13 @@ figcaption {
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+
+
+
+
+
+
+@media only screen and (max-width: 567px){
     .en {
     padding:2.5%;
     height: 10%;
@@ -420,5 +426,110 @@ figcaption {
 
 
 
+
+}
+
+@media only screen and (min-width:568px)
+and (max-width:813px)
+and (orientation:landscape){
+    html {
+        margin-left:60px;
+    }
+
+    .homePage h1{
+        font-size: 20px;
+    }
+
+    .en i {
+        font-size:20px;
+    }
+
+    .en b {
+        font-size:8px;
+    }
+
+    .en {
+        width:60px;
+    }
+
+    body {
+        margin-left:15px;
+        margin-right:15px;
+    }
+
+
+    .aboutPage .mid {
+        margin-right:20px;
+        margin-left:auto;
+    }
+
+    .aboutPage h1 {
+        font-size:20px;
+        
+        
+    }
+
+    .aboutPage p {
+        font-size:14px;
+        line-height:30px;
+    }
+
+    .contactPage h1 {
+        margin-left:auto;
+        margin-right:auto;
+        font-size:20px;
+    }
+
+    .otherCon {
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:15%;
+        
+    }
+
+    .projectsPage h1 {
+        font-size:20px;
+    }
+
+    .projectsPage b {
+        font-size:20px;
+    }
+
+    
+
+
+}
+
+@media only screen and (min-width:813px)
+and (orientation:landscape){
+
+.scroller {
+
+    
+    margin-right:auto;
+    margin-left:-85px;
+    height:50vh;
+    -webkit-overflow-scrolling: touch;
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overflow-y:none;
+
+}
+
+
+
+.inner {
+    flex:0 0 auto;
+    border:1px solid white;
+    width:30%;
+    height:97%;
+}
+
+.projectsPage img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
 
 }
